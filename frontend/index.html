@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terveyspäiväkirja</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container" id="login-section">
+    <h2>Kirjaudu</h2>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Kirjaudu sisään</button>
+    </form>
+    <p>
+      Ei tiliä?
+      <a href="#" id="show-register">Rekisteröidy</a>
+    </p>
+  </div>
+
+  <div class="container" id="register-section" style="display: none;">
+    <h2>Rekisteröidy</h2>
+    <form id="register-form">
+      <input type="text" id="reg-username" placeholder="Username" required />
+      <input type="text" id="reg-email" placeholder="Email" required />
+      <input type="password" id="reg-password" placeholder="Password" required />
+      <button type="submit">Rekisteröi</button>
+    </form>
+    <p>
+      Löytyykö tili? Kirjaudu tästä
+      <a href="#" id="show-login">Kirjaudu tästä</a>
+    </p>
+  </div>
+
+  <div class="container" id="diary-section" style="display: none;">
+    <div class="top_cont">
+      <h2>Terveyspäiväkirja</h2>
+      <button id="logout-btn">Kirjaudu ulos</button>
+    </div>
+    <hr />
+    <form id="new-entry-form">
+      <input type="date" id="new-entry-date" required />
+      <select id="new-entry-mood" required>
+        <option value="">Valitse mieliala</option>
+        <option value="happy">Iloinen</option>
+        <option value="neutral">Neutraali</option>
+        <option value="sad">Surullinen</option>
+        <option value="excited">Innoissaan</option>
+        <option value="tired">Väsynyt</option>
+        <option value="neutral">Tylsistynyt</option>
+        <option value="neutral">Pettynyt</option>
+      </select>
+      <input type="number" id="new-entry-weight" placeholder="Paino" required />
+      <input type="number" id="new-entry-sleep-hours" placeholder="Unitunnit" required />
+      <textarea id="new-entry-notes" placeholder="Lisää muistiinpanot tänne..." required></textarea>
+      <button type="submit">Lisää merkintä</button>
+    </form>
+    <br>
+    <hr />
+    <br>
+    <div id="sort-options">
+      <h3>Järjestä merkinnät</h3>
+      <label for="sort-field">Järjestä:</label>
+      <select id="sort-field">
+        <option value="entry_date">Päivämäärä</option>
+        <option value="weight">Paino</option>
+        <option value="sleep_hours">Unen määrä</option>
+        <option value="created_at">Luotu</option>
+      </select>
+      <label for="sort-order">Järjestys:</label>
+      <select id="sort-order">
+        <option value="asc">Nouseva</option>
+        <option value="desc" selected>Laskeva</option>
+      </select>
+    </div>
+    <div id="entries">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
