@@ -1,50 +1,54 @@
-![Screenshot (41)](https://github.com/user-attachments/assets/83ac7433-6fd4-4b56-b50b-63856db9c6a6)
-![Screenshot (42)](https://github.com/user-attachments/assets/096339f4-fa3f-4cce-b403-7a42a9bb94ac)
-![Screenshot (42)](https://github.com/user-attachments/assets/a2042b18-e34c-4716-b48a-c552b5040891)
+Järjestelmän Rakenne
+<img width="1048" alt="Screenshot 2025-03-16 at 14 06 40" src="https://github.com/user-attachments/assets/ab98a628-26df-400e-b3f8-48eb01634d2a" />
+
+<img width=<img width="1048" alt="Screenshot 2025-03-16 at 14 07 06" src="https://github.com/user-attachments/assets/2d1b0916-d79b-4b7f-9e45-60e95e929881" />
+"1048" alt="Screenshot 2025-03-16 at 14 06 52" src="https://github.com/user-attachments/assets/55bfe94a-b099-4d83-9ff1-7c49f927c73f" />
 
 
+Sovellus toimii digitaalisen hyvinvointipäiväkirjana, jossa käyttäjät voivat seurata terveyteensä liittyviä tietoja, kuten mielialaa, unta ja painoa. Lisäksi ylläpitäjä hallitsee käyttäjätilejä ja ylläpitää järjestelmän toimivuutta.
 
-Tietokannan Rakenne
-1. Users (Käyttäjät)
-Tallentaa käyttäjätunnukset ja perusprofiilitiedot.
+1. Käyttäjätiedot (Users-taulu)
 
-user_id – Käyttäjän yksilöllinen tunniste (Primary Key, AUTO_INCREMENT)
-username – Käyttäjätunnus (Uniikki, ei voi olla tyhjä)
-password – Salasanan hash-arvo
-email – Sähköpostiosoite (Uniikki, ei voi olla tyhjä)
-created_at – Käyttäjän rekisteröintiaika (Oletuksena nykyhetki)
-user_level – Käyttäjärooli (Oletuksena "regular")
+Tähän tietokantatauluun tallennetaan käyttäjien perustiedot ja kirjautumistunnukset.
 
-2. DiaryEntries (Päiväkirjamerkinnät)
-Tallentaa käyttäjien terveyspäiväkirjamerkinnät.
+user_id – Uniikki tunniste jokaiselle käyttäjälle (Primary Key, AUTO_INCREMENT)
+username – Käyttäjätunnus (Uniikki, pakollinen)
+password – Salasanan suojattu hash-arvo
+email – Käyttäjän sähköpostiosoite (Uniikki, pakollinen)
+created_at – Tilin luontipäivämäärä (Oletuksena nykyhetki)
+user_role – Käyttäjän rooli (Oletuksena "regular")
+2. Päiväkirjamerkinnät (DiaryEntries-taulu)
 
-entry_id – Merkinnän yksilöllinen tunniste (Primary Key, AUTO_INCREMENT)
-user_id – Viite käyttäjään (Foreign Key → Users)
+Tämä taulu säilöö käyttäjien syöttämät hyvinvointiin liittyvät tiedot.
+
+entry_id – Yksilöllinen tunniste jokaiselle merkinnälle (Primary Key, AUTO_INCREMENT)
+user_id – Viittaus käyttäjään (Foreign Key → Users)
 entry_date – Merkinnän päivämäärä
-mood – Mieliala
-weight – Paino (desimaaliluku)
+mood – Käyttäjän mieliala merkintäpäivänä
+weight – Paino (desimaalimuodossa)
 sleep_hours – Nukuttujen tuntien määrä
-notes – Lisämuistiinpanot
-created_at – Merkinnän luontiaika
+notes – Vapaamuotoiset lisähuomiot
+created_at – Merkinnän tallennusaika
+Sovelluksen Toiminnallisuus
+Käyttäjille
+
+Rekisteröityminen ja sisäänkirjautuminen
+Hyvinvointitietojen kirjaaminen ja tarkastelu
+Merkintöjen hallinta (lisäys, muokkaus, poistaminen ja lajittelu)
+Ylläpitäjille (Admin)
+
+Käyttäjätilien hallinta (käyttäjien listaus, lisäys ja poisto)
+Pääsy kaikkiin päiväkirjamerkintöihin tarvittaessa
+Tekniset Ratkaisut
+JWT-autentikaatio varmistaa turvallisen kirjautumisen sekä käyttäjille että ylläpitäjille
+RESTful API huolehtii tiedonhallinnasta ja päivittämisestä palvelimella
+Käyttöoikeudet: Ylläpitäjä voi hallita käyttäjiä, mutta tavalliset käyttäjät voivat muokata vain omia tietojaan
+Dynaaminen käyttöliittymä mukautuu käyttäjäroolin perusteella
+Kehitysympäristö
 
 
-front end: http://127.0.0.1:5500/frontend/index.html
-back end: http://127.0.0.1:5500/backend/public/index.html
+
+Lähteet ovat valmiina oleva backend.
 
 
-Toiminnot:
 
-Käyttäjäpuoli: Kirjautuminen, rekisteröinti, päiväkirjamerkintöjen hallinta (lisäys, haku, poisto, lajittelu).
-Ylläpito: Admin-kirjautuminen, käyttäjien hallinta (lisäys, listaus, poisto).
-
-Tekniset pääkohdat:
-
-JWT-autentikaatio käyttäjille ja adminille.
-Päiväkirjamerkintöjen hallinta palvelimen kautta.
-Admin-puolella käyttäjähallinta (vain admin voi lisätä ja poistaa käyttäjiä).
-Dynaaminen näkymien vaihto (kirjautuminen/paneeli).
-Lyhyesti: Sivusto tarjoaa käyttäjille päiväkirjan ja adminille työkalut käyttäjähallintaan.
-
-
-referenssit:
-matin backend, siskon miehen apua.
