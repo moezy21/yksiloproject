@@ -1,8 +1,9 @@
 Järjestelmän Rakenne
-<img width="1048" alt="Screenshot 2025-03-16 at 14 06 40" src="https://github.com/user-attachments/assets/ab98a628-26df-400e-b3f8-48eb01634d2a" />
 
-<img width=<img width="1048" alt="Screenshot 2025-03-16 at 14 07 06" src="https://github.com/user-attachments/assets/2d1b0916-d79b-4b7f-9e45-60e95e929881" />
+<img width="1048" alt="Screenshot 2025-03-16 at 14 42 50" src="https://github.com/user-attachments/assets/284164ed-d4d1-4218-9d5f-616cda6e4d64" />
 
+<img width="1048" alt="Screenshot 2025-03-16 at 14 43 00" src="https://github.com/user-attachments/assets/8ee76481-243e-424b-97c6-281a5bb1e9bd" />
+<img width="1048" alt="Screenshot 2025-03-16 at 14 43 16" src="https://github.com/user-attachments/assets/51559ca4-7eb9-4c4f-8e0b-b2774224adc3" />
 
 
 Sovellus toimii digitaalisen hyvinvointipäiväkirjana, jossa käyttäjät voivat seurata terveyteensä liittyviä tietoja, kuten mielialaa, unta ja painoa. Lisäksi ylläpitäjä hallitsee käyttäjätilejä ja ylläpitää järjestelmän toimivuutta.
