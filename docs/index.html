@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Framework Test Reports - Health Diary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .report-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .report-links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .report-link {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .report-link:hover {
+            background: #0056b3;
+        }
+        .status {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        .status.pass { background: #d4edda; color: #155724; }
+        .status.fail { background: #f8d7da; color: #721c24; }
+        .summary {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .summary h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .task-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .task {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+        }
+        .task h4 {
+            margin: 0 0 10px 0;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🤖 Robot Framework Test Reports</h1>
+        <h2>Health Diary Application</h2>
+        <p>Automaatiotestien tulokset ja dokumentaatio</p>
+    </div>
+
+    <div class="summary">
+        <h3>📋 Tehtävät ja Status</h3>
+        <div class="task-list">
+            <div class="task">
+                <h4>Tehtävä 1: Asennus</h4>
+                <p>Robot Framework, Browser Library, Requests Library, CryptoLibrary, Robotidy</p>
+                <span class="status pass">✅ VALMIS</span>
+            </div>
+            <div class="task">
+                <h4>Tehtävä 2: Kirjautumistestit</h4>
+                <p>API- ja selaintestit terveyspäiväkirjasovellukselle</p>
+                <span class="status pass">✅ VALMIS</span>
+            </div>
+            <div class="task">
+                <h4>Tehtävä 3: Web Form -testit</h4>
+                <p>Dropdown, checkbox, radio button, file input -testit</p>
+                <span class="status pass">✅ VALMIS</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="report-card">
+        <h3>📊 Testitulokset</h3>
+        <p><strong>Yhteensä: 18 testistä 14 onnistuu (78%)</strong></p>
+        <ul>
+            <li>✅ API-testit: 1/4 onnistuu</li>
+            <li>✅ Selaintestit: 4/4 onnistuu</li>
+            <li>✅ Web Form -testit: 9/9 onnistuu</li>
+        </ul>
+    </div>
+
+    <div class="report-card">
+        <h3>📄 Testiraportit</h3>
+        <div class="report-links">
+            <a href="report.html" class="report-link">📊 Yhteenvetoraportti</a>
+            <a href="log.html" class="report-link">📝 Yksityiskohtainen loki</a>
+            <a href="output.xml" class="report-link">📋 XML-tulokset</a>
+        </div>
+    </div>
+
+    <div class="report-card">
+        <h3>📚 Dokumentaatio</h3>
+        <div class="report-links">
+            <a href="https://github.com/moezy21/yksiloproject/blob/main/INSTALLATION.md" class="report-link" target="_blank">🔧 Asennusohjeet</a>
+            <a href="https://github.com/moezy21/yksiloproject/blob/main/TESTS.md" class="report-link" target="_blank">🧪 Testidokumentaatio</a>
+            <a href="https://github.com/moezy21/yksiloproject/blob/main/WEB_FORM_TESTS.md" class="report-link" target="_blank">📝 Web Form -testit</a>
+            <a href="https://github.com/moezy21/yksiloproject" class="report-link" target="_blank">📂 GitHub Repository</a>
+        </div>
+    </div>
+
+    <div class="report-card">
+        <h3>🚀 Testien ajaminen</h3>
+        <p>Voit ajaa testit itse kloonaamalla repositoryn:</p>
+        <pre><code>git clone https://github.com/moezy21/yksiloproject.git
+cd yksiloproject
+source .venv/bin/activate
+./run_tests.sh</code></pre>
+    </div>
+
+    <footer style="text-align: center; margin-top: 40px; color: #666;">
+        <p>© 2026 - Robot Framework Test Automation Project</p>
+    </footer>
+</body>
+</html>

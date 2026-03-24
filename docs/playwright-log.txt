@@ -1,0 +1,166 @@
+{"level":30,"time":"2026-03-24T11:23:07.162Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Listening on 127.0.0.1:63890"}
+{"level":30,"time":"2026-03-24T11:23:08.248Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-24T11:23:09.743Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-24T11:23:09.743Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-24T11:23:09.743Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-24T11:23:09.748Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-24T11:23:09.748Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@2231bf215b90c5c1e7222f746a06b042\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=45955701-8a84-4832-996e-44ff75cadb09\"}"}
+{"level":30,"time":"2026-03-24T11:23:09.779Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=485405b5-3c7b-4009-b3ac-ee95a0b58e03 to 10000"}
+{"level":30,"time":"2026-03-24T11:23:09.779Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=485405b5-3c7b-4009-b3ac-ee95a0b58e03"}
+{"level":30,"time":"2026-03-24T11:23:10.910Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-24T11:23:10.911Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-24T11:23:11.133Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-24T11:23:11.180Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-24T11:23:11.197Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=0251b399-0e91-44f9-992c-197453ca1223 from context=485405b5-3c7b-4009-b3ac-ee95a0b58e03 page stack"}
+{"level":30,"time":"2026-03-24T11:23:11.367Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
+    at PlaywrightServer.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13677:59)
+    at PlaywrightServer.setTimeout (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13933:56)
+    at Object.onReceiveHalfClose (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-24T11:23:11.376Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:11.376Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:11.379Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:11.379Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:11.384Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-24T11:23:11.813Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-24T11:23:11.813Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-24T11:23:11.813Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-24T11:23:11.824Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-24T11:23:11.824Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@b6325e97b2cc9b0235ad92db176e3cf3\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=d549dcad-162e-4a4d-b44e-bc3f5d4cbeb1\"}"}
+{"level":30,"time":"2026-03-24T11:23:11.828Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=e2490fe3-d7af-40d2-b708-0a5d8e83b830 to 10000"}
+{"level":30,"time":"2026-03-24T11:23:11.829Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=e2490fe3-d7af-40d2-b708-0a5d8e83b830"}
+{"level":30,"time":"2026-03-24T11:23:12.021Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-24T11:23:12.021Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-24T11:23:12.231Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-24T11:23:12.237Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-24T11:23:12.237Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=login-form in page."}
+{"level":30,"time":"2026-03-24T11:23:12.271Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-24T11:23:12.273Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-24T11:23:12.273Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=username in page."}
+{"level":30,"time":"2026-03-24T11:23:12.275Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-24T11:23:12.276Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-24T11:23:12.276Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-24T11:23:12.278Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-24T11:23:12.280Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-24T11:23:12.280Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@id='login-section']/h2 in page."}
+{"level":30,"time":"2026-03-24T11:23:12.306Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element xpath=//div[@id='login-section']/h2 containing Kirjaudu"}
+{"level":30,"time":"2026-03-24T11:23:12.306Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-24T11:23:12.309Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-24T11:23:12.318Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=5f436bf9-6ab3-4490-8bbe-99f9682b9790 from context=e2490fe3-d7af-40d2-b708-0a5d8e83b830 page stack"}
+{"level":30,"time":"2026-03-24T11:23:12.394Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
+    at PlaywrightServer.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13677:59)
+    at PlaywrightServer.setTimeout (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13933:56)
+    at Object.onReceiveHalfClose (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-24T11:23:12.397Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:12.397Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:12.398Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:12.398Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:12.402Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-24T11:23:12.681Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-24T11:23:12.681Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-24T11:23:12.681Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-24T11:23:12.684Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-24T11:23:12.685Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@d0f1442270865cf9dd168b7870476d37\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=41eb6835-3f92-4056-ab14-14157973d13a\"}"}
+{"level":30,"time":"2026-03-24T11:23:12.690Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=3ee755d8-65dc-4f52-943c-d10c7232b2d4 to 10000"}
+{"level":30,"time":"2026-03-24T11:23:12.690Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=3ee755d8-65dc-4f52-943c-d10c7232b2d4"}
+{"level":30,"time":"2026-03-24T11:23:12.898Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-24T11:23:12.898Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-24T11:23:13.049Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-24T11:23:13.061Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-24T11:23:13.062Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=username in page."}
+{"level":30,"time":"2026-03-24T11:23:13.089Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-24T11:23:13.093Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-24T11:23:13.093Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-03-24T11:23:13.113Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-24T11:23:13.115Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-24T11:23:13.115Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@id='login-section']//button[@type='submit'] in page."}
+{"level":30,"time":"2026-03-24T11:23:13.168Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-24T11:23:13.170Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-24T11:23:13.180Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=88d4e6c6-a2b0-4eea-99d7-67d4228e3752 from context=3ee755d8-65dc-4f52-943c-d10c7232b2d4 page stack"}
+{"level":30,"time":"2026-03-24T11:23:13.269Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
+    at PlaywrightServer.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13677:59)
+    at PlaywrightServer.setTimeout (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13933:56)
+    at Object.onReceiveHalfClose (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-24T11:23:13.276Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:13.276Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:13.279Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:13.279Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:13.287Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-24T11:23:13.539Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-24T11:23:13.539Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-24T11:23:13.539Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-24T11:23:13.544Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-24T11:23:13.544Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@74f0b62b8a425fec919de8c34aab73b9\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=8417e239-6de0-48f9-a440-99fc6be2fb97\"}"}
+{"level":30,"time":"2026-03-24T11:23:13.547Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=b7b609fa-e7d6-48c1-abdb-4483256e4714 to 10000"}
+{"level":30,"time":"2026-03-24T11:23:13.547Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=b7b609fa-e7d6-48c1-abdb-4483256e4714"}
+{"level":30,"time":"2026-03-24T11:23:13.730Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-24T11:23:13.730Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-24T11:23:13.908Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-24T11:23:13.911Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-24T11:23:13.911Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with .info-box in page."}
+{"level":30,"time":"2026-03-24T11:23:13.942Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element .info-box containing Tämä sovellus on terveyspäiväkirja, joka auttaa sinua seuraamaan päivittäistä hyvinvointiasi. Voit tallentaa esimerkiksi painon, unitunnit, mielialan, stressitason, aktiivisuuden, ruokavalion, sairaudet, lääkitykset, HRV-arvon, verenpaineen, sykkeen sekä mahdolliset oireet kuten pahoinvointi tai kuume."}
+{"level":30,"time":"2026-03-24T11:23:13.942Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-24T11:23:13.945Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-24T11:23:13.954Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=a9aae677-6b9e-4302-9ca0-1caa285ecdd3 from context=b7b609fa-e7d6-48c1-abdb-4483256e4714 page stack"}
+{"level":30,"time":"2026-03-24T11:23:14.046Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
+    at PlaywrightServer.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13677:59)
+    at PlaywrightServer.setTimeout (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13933:56)
+    at Object.onReceiveHalfClose (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-24T11:23:14.052Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:14.052Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
+    at PlaywrightServer.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13677:59)
+    at PlaywrightServer.setTimeout (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13933:56)
+    at Object.onReceiveHalfClose (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-24T11:23:14.056Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:14.056Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-24T11:23:14.083Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-24T11:23:14.083Z","pid":87946,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}
