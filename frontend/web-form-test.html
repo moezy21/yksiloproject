@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form Test Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input, select, textarea { width: 300px; padding: 8px; }
+        button { padding: 10px 20px; background: #007bff; color: white; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .checkbox-group, .radio-group { margin: 5px 0; }
+    </style>
+</head>
+<body>
+    <h1>Web Form Test Page - Tehtävä 3</h1>
+
+    <form id="test-form">
+        <div class="form-group">
+            <label for="dropdown-select">Dropdown (Select):</label>
+            <select id="dropdown-select" name="dropdown-select">
+                <option value="">Valitse vaihtoehto</option>
+                <option value="option1">Vaihtoehto 1</option>
+                <option value="option2">Vaihtoehto 2</option>
+                <option value="option3">Vaihtoehto 3</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="dropdown-datalist">Dropdown (Datalist):</label>
+            <input list="browsers" id="dropdown-datalist" name="browser">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Edge">
+                <option value="Opera">
+            </datalist>
+        </div>
+
+        <div class="form-group">
+            <label for="file-input">File Input:</label>
+            <input type="file" id="file-input" name="file" accept=".txt,.pdf,.jpg">
+        </div>
+
+        <div class="form-group">
+            <label>Checkboxes:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="checkbox1" name="checkboxes" value="option1">
+                <label for="checkbox1">Vaihtoehto 1</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="checkbox2" name="checkboxes" value="option2">
+                <label for="checkbox2">Vaihtoehto 2</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="checkbox3" name="checkboxes" value="option3">
+                <label for="checkbox3">Vaihtoehto 3</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Radio Buttons:</label>
+            <div class="radio-group">
+                <input type="radio" id="radio1" name="radio-group" value="option1">
+                <label for="radio1">Vaihtoehto A</label>
+            </div>
+            <div class="radio-group">
+                <input type="radio" id="radio2" name="radio-group" value="option2">
+                <label for="radio2">Vaihtoehto B</label>
+            </div>
+            <div class="radio-group">
+                <input type="radio" id="radio3" name="radio-group" value="option3">
+                <label for="radio3">Vaihtoehto C</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="text-input">Text Input:</label>
+            <input type="text" id="text-input" name="text-input" placeholder="Kirjoita jotain">
+        </div>
+
+        <div class="form-group">
+            <label for="textarea">Textarea:</label>
+            <textarea id="textarea" name="textarea" rows="4" placeholder="Kirjoita pidempi teksti"></textarea>
+        </div>
+
+        <button type="submit">Lähetä</button>
+        <button type="reset">Tyhjennä</button>
+    </form>
+
+    <div id="result" style="margin-top: 20px; padding: 10px; background: #f0f0f0; display: none;">
+        <h3>Lomake lähetetty!</h3>
+        <p>Tiedot on käsitelty.</p>
+    </div>
+
+    <script>
+        document.getElementById('test-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            document.getElementById('result').style.display = 'block';
+        });
+    </script>
+</body>
+</html>

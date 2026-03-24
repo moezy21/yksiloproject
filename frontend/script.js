@@ -104,7 +104,14 @@ newEntryForm.addEventListener('submit', async (e) => {
   const mood = document.getElementById('new-entry-mood').value;
   const weight = document.getElementById('new-entry-weight').value;
   const sleep_hours = document.getElementById('new-entry-sleep-hours').value;
-  const notes = document.getElementById('new-entry-notes').value;
+  const notes = document.getElementById('new-entry-sick-notes').value;
+  const notes2 = document.getElementById('new-entry-medication-notes').value;
+  const notes3 = document.getElementById('new-entry-hrv-notes').value;
+  const notes4 = document.getElementById('new-entry-bloodps-notes').value;
+  const notes5 = document.getElementById('new-entry-heartrate-notes').value;
+  const notes6 = document.getElementById('new-entry-feel-notes').value;
+  const notes7 = document.getElementById('new-entry-dizzy-notes').value;
+  const notes8 = document.getElementById('new-entry-fever-notes').value;
 
   try {
     const response = await fetch(`${apiBaseUrl}/entries`, {
@@ -118,7 +125,14 @@ newEntryForm.addEventListener('submit', async (e) => {
         "mood": mood,
         "weight": weight,
         "sleep_hours": sleep_hours,
-        "notes": notes
+        "notes": notes,
+        "notes2": notes2,
+        "notes3": notes3,
+        "notes4": notes4,
+        "notes5": notes5,
+        "notes6": notes6,
+        "notes7": notes7,
+        "notes8": notes8
        })
     });
     if (!response.ok) {
@@ -128,7 +142,14 @@ newEntryForm.addEventListener('submit', async (e) => {
     document.getElementById('new-entry-mood').value = '';
     document.getElementById('new-entry-weight').value = '';
     document.getElementById('new-entry-sleep-hours').value = '';
-    document.getElementById('new-entry-notes').value = '';
+    document.getElementById('new-entry-sick-notes').value = '';
+    document.getElementById('new-entry-medication-notes').value = '';
+    document.getElementById('new-entry-hrv-notes').value = '';
+    document.getElementById('new-entry-bloodps-notes').value = '';
+    document.getElementById('new-entry-heartrate-notes').value = '';
+    document.getElementById('new-entry-feel-notes').value = '';
+    document.getElementById('new-entry-dizzy-notes').value = '';
+    document.getElementById('new-entry-fever-notes').value = '';
     fetchEntries();
   } catch (error) {
     alert('Error adding entry: ' + error.message);
@@ -189,7 +210,14 @@ function renderEntries(entries) {
         <p><strong>Mieliala:</strong> ${entry.mood}</p>
         <p><strong>Paino:</strong> ${entry.weight} kg</p>
         <p><strong>Unen määrä:</strong> ${entry.sleep_hours} tunti(a)</p>
-        <p><strong>Muistiinpanot:</strong> ${entry.notes}</p>
+        <p><strong>Sairaudet:</strong> ${entry.notes}</p>
+        <p><strong>Lääkitykset:</strong> ${entry.notes2}</p>
+        <p><strong>HRV:</strong> ${entry.notes3}</p>
+        <p><strong>Verenpaine:</strong> ${entry.notes4}</p>
+        <p><strong>Syke:</strong> ${entry.notes5}</p>
+        <p><strong>Pahoinvointia?:</strong> ${entry.notes6}</p>
+        <p><strong>Pyörrytys?:</strong> ${entry.notes7}</p>
+        <p><strong>Kuumetta?:</strong> ${entry.notes8}</p>
         <small>Luotu: ${new Date(entry.created_at).toLocaleDateString('fi-FI')} ${new Date(entry.created_at).toLocaleTimeString('en-GB')}</small>
         <br>
         <br>

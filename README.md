@@ -5,6 +5,11 @@ Järjestelmän Rakenne
 <img width="1048" alt="Screenshot 2025-03-16 at 14 43 00" src="https://github.com/user-attachments/assets/8ee76481-243e-424b-97c6-281a5bb1e9bd" />
 <img width="1048" alt="Screenshot 2025-03-16 at 14 43 16" src="https://github.com/user-attachments/assets/51559ca4-7eb9-4c4f-8e0b-b2774224adc3" />
 
+## Dokumentaatio
+
+- [Robot Framework - Asennusohjeet](INSTALLATION.md) - Tehtävä 1 ✅
+- [Robot Framework - Automaatiotestit](TESTS.md) - Tehtävä 2 ✅
+- [Robot Framework - Web Form -testit](WEB_FORM_TESTS.md) - Tehtävä 3 ✅
 
 Sovellus toimii digitaalisen hyvinvointipäiväkirjana, jossa käyttäjät voivat seurata terveyteensä liittyviä tietoja, kuten mielialaa, unta ja painoa. Lisäksi ylläpitäjä hallitsee käyttäjätilejä ja ylläpitää järjestelmän toimivuutta.
 
@@ -53,3 +58,46 @@ Lähteet ovat valmiina oleva backend.
 
 
 
+<<<<<<< HEAD
+=======
+Käyttäjäpuoli: Kirjautuminen, rekisteröinti, päiväkirjamerkintöjen hallinta (lisäys, haku, poisto, lajittelu).
+Ylläpito: Admin-kirjautuminen, käyttäjien hallinta (lisäys, listaus, poisto).
+
+Tekniset pääkohdat:
+
+JWT-autentikaatio käyttäjille ja adminille.
+Päiväkirjamerkintöjen hallinta palvelimen kautta.
+Admin-puolella käyttäjähallinta (vain admin voi lisätä ja poistaa käyttäjiä).
+Dynaaminen näkymien vaihto (kirjautuminen/paneeli).
+Lyhyesti: Sivusto tarjoaa käyttäjille päiväkirjan ja adminille työkalut käyttäjähallintaan.
+
+
+referenssit:
+matin backend 
+
+## Tehtävä 1 – Testaustyökalujen asennus
+
+Tässä tehtävässä tarkoitus oli asentaa testaukseen tarvittavat työkalut, jotta voin myöhemmin testata omaa terveyspäiväkirja-sovellusta Robot Frameworkilla.
+
+### Asennetut työkalut
+
+Asensin seuraavat työkalut:
+
+- Robot Framework  
+- Browser Library  
+- RequestsLibrary  
+- CryptoLibrary  
+- Robotidy  
+
+### Asennus
+
+Asensin nämä komentorivillä (pip). Suurin osa meni ihan suoraan, mutta pari juttua piti vähän selvittää netistä.
+
+```bash
+pip install robotframework
+pip install robotframework-browser
+pip install robotframework-requests
+pip install robotframework-crypto
+pip install robotframework-tidy
+rfbrowser init
+>>>>>>> 7ae3eb2 (Add Robot Framework tests and documentation for Tasks 1-3)

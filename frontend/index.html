@@ -9,6 +9,11 @@
 <body>
   <div class="container" id="login-section">
     <h2>Kirjaudu</h2>
+    <div class="info-box">
+      Tämä sovellus on <strong>terveyspäiväkirja</strong>, joka auttaa sinua seuraamaan päivittäistä hyvinvointiasi. 
+      Voit tallentaa esimerkiksi painon, unitunnit, mielialan, stressitason, aktiivisuuden, ruokavalion, 
+      sairaudet, lääkitykset, HRV-arvon, verenpaineen, sykkeen sekä mahdolliset oireet kuten pahoinvointi tai kuume.
+    </div>
     <form id="login-form">
       <input type="text" id="username" placeholder="Username" required />
       <input type="password" id="password" placeholder="Password" required />
@@ -19,7 +24,7 @@
       <a href="#" id="show-register">Rekisteröidy</a>
     </p>
   </div>
-
+  
   <div class="container" id="register-section" style="display: none;">
     <h2>Rekisteröidy</h2>
     <form id="register-form">
@@ -39,22 +44,48 @@
       <h2>Terveyspäiväkirja</h2>
       <button id="logout-btn">Kirjaudu ulos</button>
     </div>
+    
     <hr />
     <form id="new-entry-form">
       <input type="date" id="new-entry-date" required />
-      <select id="new-entry-mood" required>
-        <option value="">Valitse mieliala</option>
-        <option value="happy">Iloinen</option>
-        <option value="neutral">Neutraali</option>
-        <option value="sad">Surullinen</option>
-        <option value="excited">Innoissaan</option>
-        <option value="tired">Väsynyt</option>
-        <option value="neutral">Tylsistynyt</option>
-        <option value="neutral">Pettynyt</option>
-      </select>
       <input type="number" id="new-entry-weight" placeholder="Paino" required />
       <input type="number" id="new-entry-sleep-hours" placeholder="Unitunnit" required />
-      <textarea id="new-entry-notes" placeholder="Lisää muistiinpanot tänne..." required></textarea>
+      <select id="new-entry-mood" required>
+        <option value="">Mieliala</option>
+        <option value="happy">1</option>
+        <option value="neutral">2</option>
+        <option value="sad">3</option>
+        <option value="excited">4</option>
+        <option value="tired">5</option>
+      </select>
+      <select id="new-entry-mood2" required>
+        <option value="">Stressitaso</option>
+        <option value="happy">1</option>
+        <option value="neutral">2</option>
+        <option value="sad">3</option>
+        <option value="excited">4</option>
+        <option value="tired">5</option>
+      </select>
+      <select id="new-entry-mood3" required>
+        <option value="">Aktiivisuus</option>
+        <option value="happy">Kyllä</option>
+        <option value="neutral">Kohtalaisesti</option>
+        <option value="sad">Ei</option>
+      </select>
+      <select id="new-entry-mood4" required>
+        <option value="">Ruokavalio</option>
+        <option value="happy">Terveellinen</option>
+        <option value="neutral">Kohtalainen</option>
+        <option value="sad">Epäterveellinen</option>
+      </select>
+      <textarea id="new-entry-sick-notes" placeholder="Sairaudet" required></textarea>
+      <textarea id="new-entry-medication-notes" placeholder="Mahdolliset lääkitykset" required></textarea>
+      <textarea id="new-entry-hrv-notes" placeholder="HRV-arvo" required></textarea>
+      <textarea id="new-entry-bloodps-notes" placeholder="Verenpaine" required></textarea>
+      <textarea id="new-entry-heartrate-notes" placeholder="Syke" required></textarea>
+      <textarea id="new-entry-feel-notes" placeholder="Onko pahoinvointia?" required></textarea>
+      <textarea id="new-entry-dizzy-notes" placeholder="Pyörryttääkö?" required></textarea>
+      <textarea id="new-entry-fever-notes" placeholder="Onko kuumetta?" required></textarea>
       <button type="submit">Lisää merkintä</button>
     </form>
     <br>
