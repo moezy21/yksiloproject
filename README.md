@@ -8,7 +8,7 @@ Järjestelmän Rakenne
 ## Dokumentaatio
 
 - [Robot Framework - Asennusohjeet](INSTALLATION.md) - Tehtävä 1 ✅
-- [Robot Framework - Automaatiotestit](TESTS.md) - Tehtävä 2 ✅
+- [Robot Framework - Automaatiotestit](TESTS.md) - Tehtävät 2, 4 & 5 ✅
 - [Robot Framework - Web Form -testit](WEB_FORM_TESTS.md) - Tehtävä 3 ✅
 
 Sovellus toimii digitaalisen hyvinvointipäiväkirjana, jossa käyttäjät voivat seurata terveyteensä liittyviä tietoja, kuten mielialaa, unta ja painoa. Lisäksi ylläpitäjä hallitsee käyttäjätilejä ja ylläpitää järjestelmän toimivuutta.

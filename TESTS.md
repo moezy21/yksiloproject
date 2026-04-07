@@ -1,8 +1,8 @@
-# Robot Framework - Automaatiotestit (Tehtävä 2)
+# Robot Framework - Automaatiotestit (Tehtävät 2, 4 & 5)
 
 ## Yleiskatsaus
 
-Tämä dokumentti kuvailee terveyspäiväkirja-sovellukselle luotuja Robot Framework -automaatiotestejä. Testit on jaettu kahteen pääkategoriaan: API-testit ja selaintestit.
+Tämä dokumentti kuvailee terveyspäiväkirja-sovellukselle luotuja Robot Framework -automaatiotestejä. Testit on jaettu kolmeen pääkategoriaan: API-testit, selaintestit ja .env-pohjaiset kirjautumistestit.
 
 ## Testien rakenne
 
@@ -10,8 +10,9 @@ Testit sijaitsevat `tests/` -hakemistossa:
 
 ```
 tests/
-├── api_tests.robot          # API-rajapintojen testit
-├── browser_tests.robot      # Selainpohjaiset käyttöliittymätestit
+├── api_tests.robot          # API-rajapintojen testit (Tehtävä 2)
+├── browser_tests.robot      # Selainpohjaiset käyttöliittymätestit (Tehtävät 2 & 4)
+├── env_login_tests.robot    # .env-tiedostosta luetut kirjautumistestit (Tehtävä 5)
 └── test_suite.robot         # Testisarjan yhdistely
 ```
 
@@ -42,6 +43,11 @@ robot tests/api_tests.robot
 robot tests/browser_tests.robot
 ```
 
+**Vain .env kirjautumistestit:**
+```bash
+robot tests/env_login_tests.robot
+```
+
 **Raporttien generointi:**
 ```bash
 robot --outputdir results tests/
@@ -65,14 +71,17 @@ robot --outputdir results tests/
 2. **Test User Registration**
    - Testaa uuden käyttäjän rekisteröinti
    - Lähettää POST-pyynnön `/api/auth/register` -endpointiin
+   - Huom: Tämä ei toimi ilman tietokantaa
 
 3. **Test User Login**
    - Testaa käyttäjän kirjautuminen
    - Tarkistaa että JWT-token palautetaan onnistuneesti
+   - Riippuu rekisteröinnistä
 
 4. **Test Get User Profile**
    - Testaa käyttäjäprofiilin hakeminen
    - Käyttää autentikoitua pyyntöä
+   - Tarvitsee kirjautumisen ensin
 
 ### Selaintestit (browser_tests.robot)
 
@@ -92,6 +101,18 @@ robot --outputdir results tests/
    - Tarkistaa info-boxin sisällön oikeellisuuden
    - Varmistaa että sovelluksen kuvaus on näkyvissä
 
+5. **Test Add New Diary Entry (Tehtävä 4)**
+   - Testaa uuden päiväkirjamerkinnän lisäys
+   - Kirjaudutaan sisään ja täytetään merkintälomake
+   - Tarkistaa lomakkeen toimivuus
+
+### .env-pohjaiset kirjautumistestit (env_login_tests.robot)
+
+1. **Test Login With Env Credentials (Tehtävä 5)**
+   - Testaa kirjautuminen käyttäen credentials .env-tiedostosta
+   - Lukee käyttäjätunnuksen ja salasanan `.env` -tiedostosta
+   - Varmistaa turvallisen credential-hallinnan
+
 ## Testitulokset
 
 Testien suorittamisen jälkeen generoituvat seuraavat tiedostot `results/` -hakemistoon:
@@ -108,11 +129,15 @@ Testien suorittamisen jälkeen generoituvat seuraavat tiedostot `results/` -hake
 - ❌ Test User Login - FAIL (riippuu rekisteröinnistä)
 - ❌ Test Get User Profile - FAIL (riippuu kirjautumisesta)
 
-**Selaintestit (4 testit):**
+**Selaintestit (5 testit):**
 - ✅ Test Frontend Page Load - **PASS**
 - ✅ Test Login Form Elements - **PASS**
 - ✅ Test Login Form Submission - **PASS**
 - ✅ Test Info Box Content - **PASS**
+- ✅ Test Add New Diary Entry - **PASS**
+
+**.env kirjautumistestit (1 testi):**
+- ✅ Test Login With Env Credentials - **PASS**
 
 **Web Form -testit (9 testit, Tehtävä 3):**
 - ✅ Test Dropdown Select - **PASS**
@@ -128,7 +153,7 @@ Testien suorittamisen jälkeen generoituvat seuraavat tiedostot `results/` -hake
 **Testisviite (1 testi):**
 - ✅ Suite Setup Test - **PASS**
 
-**Yhteensä: 18 testistä 14 onnistuu, 4 epäonnistuu**
+**Yhteensä: 20 testistä 17 onnistuu, 3 epäonnistuu**
 
 ### Huomioita testeistä
 
@@ -142,6 +167,13 @@ Testejä voidaan laajentaa lisäämällä uusia testitapauksia:
 
 - Päiväkirjamerkintöjen hallinta (lisäys, muokkaus, poisto)
 - Käyttäjien hallinta (admin-toiminnot)
+
+### Opittua
+
+- Robot Framework oli ihan ok käyttää, mutta alussa oli vähän vaikea saada kaikki kirjastot toimimaan
+- Browser Library on kyllä kätevä, mutta xpath-valinnat oli välillä hankalia
+- .env-tiedoston käyttö credentialsien kanssa oli hyvä idea turvallisuuden kannalta
+- Testien ajaminen skriptillä helpotti paljon
 - Virhetilanteiden testaus
 - Suorituskykytestaus
 

@@ -1,38 +1,18 @@
-{"level":30,"time":"2026-03-24T11:29:02.408Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Listening on 127.0.0.1:64266"}
-{"level":30,"time":"2026-03-24T11:29:03.525Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:04.424Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-24T11:29:04.424Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-24T11:29:04.424Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:04.440Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:04.441Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@237bd0b92f52a209c52f0861e0724e2d\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=b6b50af2-280c-469f-a180-b9cae369bebc\"}"}
-{"level":30,"time":"2026-03-24T11:29:04.450Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=4d6ce6a8-8515-40b5-bf2a-8480d7380c09 to 10000"}
-{"level":30,"time":"2026-03-24T11:29:04.451Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=4d6ce6a8-8515-40b5-bf2a-8480d7380c09"}
-{"level":30,"time":"2026-03-24T11:29:05.238Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-24T11:29:05.238Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-24T11:29:05.308Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:05.319Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method selectOption"}
-{"level":30,"time":"2026-03-24T11:29:05.319Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=dropdown-select in page."}
-{"level":30,"time":"2026-03-24T11:29:05.370Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Option entries: 4"}
-{"level":30,"time":"2026-03-24T11:29:05.370Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Selected entries: 1"}
-{"level":30,"time":"2026-03-24T11:29:05.370Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method selectOption"}
-{"level":30,"time":"2026-03-24T11:29:05.373Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getSelectContent"}
-{"level":30,"time":"2026-03-24T11:29:05.373Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=dropdown-select in page."}
-{"level":30,"time":"2026-03-24T11:29:05.379Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Option entries: 4"}
-{"level":30,"time":"2026-03-24T11:29:05.380Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Selected entries: 1"}
-{"level":30,"time":"2026-03-24T11:29:05.380Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getSelectContent"}
-{"level":30,"time":"2026-03-24T11:29:05.398Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method selectOption"}
-{"level":30,"time":"2026-03-24T11:29:05.398Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=dropdown-select in page."}
-{"level":30,"time":"2026-03-24T11:29:05.405Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Option entries: 4"}
-{"level":30,"time":"2026-03-24T11:29:05.405Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Selected entries: 1"}
-{"level":30,"time":"2026-03-24T11:29:05.405Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method selectOption"}
-{"level":30,"time":"2026-03-24T11:29:05.407Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getSelectContent"}
-{"level":30,"time":"2026-03-24T11:29:05.407Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=dropdown-select in page."}
-{"level":30,"time":"2026-03-24T11:29:05.412Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Option entries: 4"}
-{"level":30,"time":"2026-03-24T11:29:05.412Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Selected entries: 1"}
-{"level":30,"time":"2026-03-24T11:29:05.412Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getSelectContent"}
-{"level":30,"time":"2026-03-24T11:29:05.414Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-03-24T11:29:05.425Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=d6cc7857-9248-4d03-9425-8eeb032cafcb from context=4d6ce6a8-8515-40b5-bf2a-8480d7380c09 page stack"}
-{"level":30,"time":"2026-03-24T11:29:05.502Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:34.797Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Listening on 127.0.0.1:54055"}
+{"level":30,"time":"2026-04-07T12:39:35.876Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-07T12:39:36.829Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-04-07T12:39:36.829Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-07T12:39:36.829Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-07T12:39:36.833Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-07T12:39:36.833Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@d49b308cfbc31bd741e4c2b0a8ad7d84\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=ad7b7d76-eff0-4de3-aff2-0484d47d38d2\"}"}
+{"level":30,"time":"2026-04-07T12:39:36.860Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=b7e9d808-c664-4658-88bb-1e8d096d1ebd to 10000"}
+{"level":30,"time":"2026-04-07T12:39:36.860Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=b7e9d808-c664-4658-88bb-1e8d096d1ebd"}
+{"level":30,"time":"2026-04-07T12:39:37.246Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-07T12:39:37.247Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-04-07T12:39:37.485Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-07T12:39:37.499Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:37.512Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=2e3e0c41-4ab2-4002-9d10-8922cbd662bb from context=b7e9d808-c664-4658-88bb-1e8d096d1ebd page stack"}
+{"level":30,"time":"2026-04-07T12:39:37.592Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
@@ -46,38 +26,37 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-03-24T11:29:05.537Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:05.537Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:05.544Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:05.544Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:05.548Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:05.809Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-24T11:29:05.809Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-24T11:29:05.810Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:05.812Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:05.812Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@f26338211e69ac285ed915821e892d06\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=b1b00227-827d-4f20-94ae-65bd0facd1f1\"}"}
-{"level":30,"time":"2026-03-24T11:29:05.816Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=99c37cf6-e947-4d34-8d93-032ce2e0d69c to 10000"}
-{"level":30,"time":"2026-03-24T11:29:05.816Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=99c37cf6-e947-4d34-8d93-032ce2e0d69c"}
-{"level":30,"time":"2026-03-24T11:29:06.036Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-24T11:29:06.036Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-24T11:29:06.092Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:06.100Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:06.100Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=dropdown-datalist in page."}
-{"level":30,"time":"2026-03-24T11:29:06.124Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:06.126Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:06.127Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=dropdown-datalist in page."}
-{"level":30,"time":"2026-03-24T11:29:06.148Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element id=dropdown-datalist containing Firefox"}
-{"level":30,"time":"2026-03-24T11:29:06.148Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:06.153Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:06.153Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=dropdown-datalist in page."}
-{"level":30,"time":"2026-03-24T11:29:06.161Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:06.163Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:06.164Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=dropdown-datalist in page."}
-{"level":30,"time":"2026-03-24T11:29:06.167Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element id=dropdown-datalist containing Chrome"}
-{"level":30,"time":"2026-03-24T11:29:06.167Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:06.169Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-03-24T11:29:06.178Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=101f8736-e9ae-47fe-acc8-c1821dc20498 from context=99c37cf6-e947-4d34-8d93-032ce2e0d69c page stack"}
-{"level":30,"time":"2026-03-24T11:29:06.242Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:37.608Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:37.608Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:37.610Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:37.610Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:37.615Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-07T12:39:37.904Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-04-07T12:39:37.904Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-07T12:39:37.904Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-07T12:39:37.908Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-07T12:39:37.908Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@e250d810bed73c8db6fa5928783283e5\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=cd9632e4-f818-4923-81c0-353f54a6fe0a\"}"}
+{"level":30,"time":"2026-04-07T12:39:37.911Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=5dbd4786-8b37-4cb0-84de-fa0d75e245e1 to 10000"}
+{"level":30,"time":"2026-04-07T12:39:37.912Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=5dbd4786-8b37-4cb0-84de-fa0d75e245e1"}
+{"level":30,"time":"2026-04-07T12:39:38.077Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-07T12:39:38.077Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-04-07T12:39:38.251Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-07T12:39:38.262Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-04-07T12:39:38.263Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=login-form in page."}
+{"level":30,"time":"2026-04-07T12:39:38.287Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-04-07T12:39:38.310Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-04-07T12:39:38.310Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=username in page."}
+{"level":30,"time":"2026-04-07T12:39:38.312Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-04-07T12:39:38.314Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-04-07T12:39:38.314Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-04-07T12:39:38.316Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-04-07T12:39:38.318Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-04-07T12:39:38.318Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@id='login-section']/h2 in page."}
+{"level":30,"time":"2026-04-07T12:39:38.338Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element xpath=//div[@id='login-section']/h2 containing Kirjaudu"}
+{"level":30,"time":"2026-04-07T12:39:38.338Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-04-07T12:39:38.339Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:38.346Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=53c703f5-bbad-4e80-820e-07501f07b0fa from context=5dbd4786-8b37-4cb0-84de-fa0d75e245e1 page stack"}
+{"level":30,"time":"2026-04-07T12:39:38.410Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
@@ -91,27 +70,33 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-03-24T11:29:06.246Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:06.246Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:06.250Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:06.250Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:06.263Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:06.496Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-24T11:29:06.496Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-24T11:29:06.496Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:06.500Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:06.500Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1c9d9c1e7bad158d309a469730f2fae8\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=81bb6d73-0235-4ab9-9585-93a9d30081dd\"}"}
-{"level":30,"time":"2026-03-24T11:29:06.504Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=b83504b2-58f6-4d77-af61-3420c898eb4a to 10000"}
-{"level":30,"time":"2026-03-24T11:29:06.504Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=b83504b2-58f6-4d77-af61-3420c898eb4a"}
-{"level":30,"time":"2026-03-24T11:29:06.703Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-24T11:29:06.703Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-24T11:29:06.741Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:06.745Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Reading multiplepart uploadFileBySelector"}
-{"level":30,"time":"2026-03-24T11:29:06.745Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with input[id=\"file-input\"] in page."}
-{"level":30,"time":"2026-03-24T11:29:06.746Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Uploading file(s) /private/tmp/test_file.txt to input[id=\"file-input\"]"}
-{"level":30,"time":"2026-03-24T11:29:06.782Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-03-24T11:29:06.794Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=f521e02b-6525-4a82-860b-4c52e2a4d054 from context=b83504b2-58f6-4d77-af61-3420c898eb4a page stack"}
-{"level":30,"time":"2026-03-24T11:29:06.863Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:38.414Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:38.414Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:38.416Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:38.416Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:38.418Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-07T12:39:38.629Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-04-07T12:39:38.630Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-07T12:39:38.630Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-07T12:39:38.634Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-07T12:39:38.634Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@c61f724ee026c61fdd41eba2756da1ca\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=6c973c45-12d6-4605-b387-5dc9958f963d\"}"}
+{"level":30,"time":"2026-04-07T12:39:38.637Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=b833c352-1bd1-4452-a4b4-7d9cc310ba3e to 10000"}
+{"level":30,"time":"2026-04-07T12:39:38.637Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=b833c352-1bd1-4452-a4b4-7d9cc310ba3e"}
+{"level":30,"time":"2026-04-07T12:39:38.802Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-07T12:39:38.802Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-04-07T12:39:38.962Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-07T12:39:38.973Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:38.973Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=username in page."}
+{"level":30,"time":"2026-04-07T12:39:39.002Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:39.004Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:39.004Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-04-07T12:39:39.027Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:39.029Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-07T12:39:39.029Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@id='login-section']//button[@type='submit'] in page."}
+{"level":30,"time":"2026-04-07T12:39:39.066Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-04-07T12:39:39.068Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:39.077Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=d2b13c1a-31c7-401c-8b39-d116998e130f from context=b833c352-1bd1-4452-a4b4-7d9cc310ba3e page stack"}
+{"level":30,"time":"2026-04-07T12:39:39.159Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
@@ -125,49 +110,28 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-03-24T11:29:06.868Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:06.869Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:06.871Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:06.872Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:06.874Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:07.102Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-24T11:29:07.102Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-24T11:29:07.102Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:07.105Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:07.105Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@e16b9edc350fdb69ba273622e0098a3d\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=dd8f6130-7c99-4a72-bb6b-5ca5110094ec\"}"}
-{"level":30,"time":"2026-03-24T11:29:07.108Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=fc9e2738-2739-4de8-b6cf-032a714068cc to 10000"}
-{"level":30,"time":"2026-03-24T11:29:07.108Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=fc9e2738-2739-4de8-b6cf-032a714068cc"}
-{"level":30,"time":"2026-03-24T11:29:07.304Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-24T11:29:07.304Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-24T11:29:07.349Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:07.354Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:07.354Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=checkbox1 in page."}
-{"level":30,"time":"2026-03-24T11:29:07.434Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:07.436Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:07.436Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=checkbox1 in page."}
-{"level":30,"time":"2026-03-24T11:29:07.448Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved dom property for element id=checkbox1 containing true"}
-{"level":30,"time":"2026-03-24T11:29:07.449Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:07.451Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:07.451Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=checkbox3 in page."}
-{"level":30,"time":"2026-03-24T11:29:07.493Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:07.495Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:07.495Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=checkbox3 in page."}
-{"level":30,"time":"2026-03-24T11:29:07.497Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved dom property for element id=checkbox3 containing true"}
-{"level":30,"time":"2026-03-24T11:29:07.497Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:07.500Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method uncheckCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:07.500Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=checkbox1 in page."}
-{"level":30,"time":"2026-03-24T11:29:07.559Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method uncheckCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:07.561Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:07.561Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=checkbox1 in page."}
-{"level":30,"time":"2026-03-24T11:29:07.565Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved dom property for element id=checkbox1 containing false"}
-{"level":30,"time":"2026-03-24T11:29:07.565Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:07.567Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:07.567Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=checkbox3 in page."}
-{"level":30,"time":"2026-03-24T11:29:07.571Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved dom property for element id=checkbox3 containing true"}
-{"level":30,"time":"2026-03-24T11:29:07.571Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:07.574Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-03-24T11:29:07.581Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=e2a3227d-2605-40ad-983f-584323395dea from context=fc9e2738-2739-4de8-b6cf-032a714068cc page stack"}
-{"level":30,"time":"2026-03-24T11:29:07.658Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:39.166Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:39.166Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:39.168Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:39.168Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:39.170Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-07T12:39:39.383Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-04-07T12:39:39.384Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-07T12:39:39.384Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-07T12:39:39.387Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-07T12:39:39.387Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1a9bfab710935206964397459138102a\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=ac0eea4c-b4b8-4047-b6d0-17227f8c48a5\"}"}
+{"level":30,"time":"2026-04-07T12:39:39.391Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=80737a27-0444-47c0-a8ed-badfd2b27ec5 to 10000"}
+{"level":30,"time":"2026-04-07T12:39:39.391Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=80737a27-0444-47c0-a8ed-badfd2b27ec5"}
+{"level":30,"time":"2026-04-07T12:39:39.681Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-07T12:39:39.681Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-04-07T12:39:39.839Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-07T12:39:39.849Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-04-07T12:39:39.849Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with .info-box in page."}
+{"level":30,"time":"2026-04-07T12:39:39.881Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element .info-box containing Tämä sovellus on terveyspäiväkirja, joka auttaa sinua seuraamaan päivittäistä hyvinvointiasi. Voit tallentaa esimerkiksi painon, unitunnit, mielialan, stressitason, aktiivisuuden, ruokavalion, sairaudet, lääkitykset, HRV-arvon, verenpaineen, sykkeen sekä mahdolliset oireet kuten pahoinvointi tai kuume."}
+{"level":30,"time":"2026-04-07T12:39:39.881Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-04-07T12:39:39.883Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:39.897Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=705d7495-f73f-44f4-8963-f613a3effbe2 from context=80737a27-0444-47c0-a8ed-badfd2b27ec5 page stack"}
+{"level":30,"time":"2026-04-07T12:39:39.975Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
@@ -181,53 +145,92 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-03-24T11:29:07.662Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:07.662Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:07.666Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:07.666Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:07.671Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:07.897Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-24T11:29:07.897Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-24T11:29:07.897Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:07.901Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:07.901Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@431687f278926efb74a28bdecbaafa9e\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=d644a559-f581-4c5d-a09c-c67fdf76c809\"}"}
-{"level":30,"time":"2026-03-24T11:29:07.904Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=17393fc8-89a0-4f8e-9bee-4fc9a7e142ea to 10000"}
-{"level":30,"time":"2026-03-24T11:29:07.904Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=17393fc8-89a0-4f8e-9bee-4fc9a7e142ea"}
-{"level":30,"time":"2026-03-24T11:29:08.385Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-24T11:29:08.385Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-24T11:29:08.433Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:08.438Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:08.438Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=radio1 in page."}
-{"level":30,"time":"2026-03-24T11:29:08.510Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:08.512Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:08.512Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=radio1 in page."}
-{"level":30,"time":"2026-03-24T11:29:08.524Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved dom property for element id=radio1 containing true"}
-{"level":30,"time":"2026-03-24T11:29:08.524Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:08.526Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:08.526Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=radio2 in page."}
-{"level":30,"time":"2026-03-24T11:29:08.575Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:08.577Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:08.577Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=radio2 in page."}
-{"level":30,"time":"2026-03-24T11:29:08.580Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved dom property for element id=radio2 containing true"}
-{"level":30,"time":"2026-03-24T11:29:08.580Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:08.582Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:08.582Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=radio1 in page."}
-{"level":30,"time":"2026-03-24T11:29:08.585Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved dom property for element id=radio1 containing false"}
-{"level":30,"time":"2026-03-24T11:29:08.585Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:08.587Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:08.587Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=radio3 in page."}
-{"level":30,"time":"2026-03-24T11:29:08.642Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:08.643Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:08.643Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=radio3 in page."}
-{"level":30,"time":"2026-03-24T11:29:08.646Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved dom property for element id=radio3 containing true"}
-{"level":30,"time":"2026-03-24T11:29:08.646Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:08.648Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:08.648Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=radio2 in page."}
-{"level":30,"time":"2026-03-24T11:29:08.651Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved dom property for element id=radio2 containing false"}
-{"level":30,"time":"2026-03-24T11:29:08.651Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:08.653Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-03-24T11:29:08.661Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=bbb307b7-b07d-46c0-96d5-ad7fe4853092 from context=17393fc8-89a0-4f8e-9bee-4fc9a7e142ea page stack"}
-{"level":30,"time":"2026-03-24T11:29:08.728Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:39.982Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:39.982Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:39.988Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:39.988Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:39.994Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-07T12:39:40.219Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-04-07T12:39:40.219Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-07T12:39:40.219Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-07T12:39:40.222Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-07T12:39:40.222Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@6860615288ad9746e342a9cb3beb436b\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=4d0bc8c3-6cd8-4840-9fac-7563101cf5f6\"}"}
+{"level":30,"time":"2026-04-07T12:39:40.226Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=84d0b86d-b696-4146-bc90-59b759f27e6a to 10000"}
+{"level":30,"time":"2026-04-07T12:39:40.226Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=84d0b86d-b696-4146-bc90-59b759f27e6a"}
+{"level":30,"time":"2026-04-07T12:39:40.392Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-07T12:39:40.392Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-04-07T12:39:40.560Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-07T12:39:40.567Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.568Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=username in page."}
+{"level":30,"time":"2026-04-07T12:39:40.591Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.594Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.594Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-04-07T12:39:40.616Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.618Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-07T12:39:40.618Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@id='login-section']//button[@type='submit'] in page."}
+{"level":30,"time":"2026-04-07T12:39:40.645Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-04-07T12:39:40.647Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-04-07T12:39:40.647Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=diary-section in page."}
+{"level":30,"time":"2026-04-07T12:39:40.732Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-04-07T12:39:40.736Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.736Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-date in page."}
+{"level":30,"time":"2026-04-07T12:39:40.739Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.742Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.742Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-weight in page."}
+{"level":30,"time":"2026-04-07T12:39:40.745Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.747Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.747Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-sleep-hours in page."}
+{"level":30,"time":"2026-04-07T12:39:40.750Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.752Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method selectOption"}
+{"level":30,"time":"2026-04-07T12:39:40.752Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-mood in page."}
+{"level":30,"time":"2026-04-07T12:39:40.766Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Option entries: 6"}
+{"level":30,"time":"2026-04-07T12:39:40.766Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Selected entries: 1"}
+{"level":30,"time":"2026-04-07T12:39:40.766Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method selectOption"}
+{"level":30,"time":"2026-04-07T12:39:40.767Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method selectOption"}
+{"level":30,"time":"2026-04-07T12:39:40.767Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-mood2 in page."}
+{"level":30,"time":"2026-04-07T12:39:40.771Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Option entries: 6"}
+{"level":30,"time":"2026-04-07T12:39:40.771Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Selected entries: 1"}
+{"level":30,"time":"2026-04-07T12:39:40.771Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method selectOption"}
+{"level":30,"time":"2026-04-07T12:39:40.773Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method selectOption"}
+{"level":30,"time":"2026-04-07T12:39:40.773Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-mood3 in page."}
+{"level":30,"time":"2026-04-07T12:39:40.779Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Option entries: 4"}
+{"level":30,"time":"2026-04-07T12:39:40.779Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Selected entries: 1"}
+{"level":30,"time":"2026-04-07T12:39:40.779Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method selectOption"}
+{"level":30,"time":"2026-04-07T12:39:40.781Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method selectOption"}
+{"level":30,"time":"2026-04-07T12:39:40.781Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-mood4 in page."}
+{"level":30,"time":"2026-04-07T12:39:40.784Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Option entries: 4"}
+{"level":30,"time":"2026-04-07T12:39:40.784Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Selected entries: 1"}
+{"level":30,"time":"2026-04-07T12:39:40.784Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method selectOption"}
+{"level":30,"time":"2026-04-07T12:39:40.785Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.785Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-sick-notes in page."}
+{"level":30,"time":"2026-04-07T12:39:40.788Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.790Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.790Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-medication-notes in page."}
+{"level":30,"time":"2026-04-07T12:39:40.794Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.796Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.796Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-hrv-notes in page."}
+{"level":30,"time":"2026-04-07T12:39:40.799Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.800Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.800Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-bloodps-notes in page."}
+{"level":30,"time":"2026-04-07T12:39:40.803Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.805Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.805Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-heartrate-notes in page."}
+{"level":30,"time":"2026-04-07T12:39:40.812Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.813Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.813Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-feel-notes in page."}
+{"level":30,"time":"2026-04-07T12:39:40.816Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.819Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.819Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-dizzy-notes in page."}
+{"level":30,"time":"2026-04-07T12:39:40.823Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.825Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.825Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=new-entry-fever-notes in page."}
+{"level":30,"time":"2026-04-07T12:39:40.829Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:40.831Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-07T12:39:40.831Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//form[@id='new-entry-form']//button[@type='submit'] in page."}
+{"level":30,"time":"2026-04-07T12:39:40.964Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-04-07T12:39:42.968Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:42.982Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=ae3b8850-547a-44c2-97bc-948821bc64eb from context=84d0b86d-b696-4146-bc90-59b759f27e6a page stack"}
+{"level":30,"time":"2026-04-07T12:39:43.074Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
@@ -241,38 +244,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-03-24T11:29:08.746Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:08.746Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:08.750Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:08.750Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:08.756Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:08.984Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-24T11:29:08.984Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-24T11:29:08.984Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:08.986Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:08.986Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@2eb91957620c3d27917e8ea50d88d4ec\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=2d3ad5fd-c65e-4fc1-a448-bd76c555a725\"}"}
-{"level":30,"time":"2026-03-24T11:29:08.990Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=ca039b57-d01f-49e8-a859-d0ceabe86c73 to 10000"}
-{"level":30,"time":"2026-03-24T11:29:08.990Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=ca039b57-d01f-49e8-a859-d0ceabe86c73"}
-{"level":30,"time":"2026-03-24T11:29:09.469Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-24T11:29:09.469Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-24T11:29:09.521Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:09.525Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:09.525Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=text-input in page."}
-{"level":30,"time":"2026-03-24T11:29:09.544Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:09.547Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:09.547Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=text-input in page."}
-{"level":30,"time":"2026-03-24T11:29:09.561Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element id=text-input containing Hello World"}
-{"level":30,"time":"2026-03-24T11:29:09.561Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:09.563Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:09.563Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=text-input in page."}
-{"level":30,"time":"2026-03-24T11:29:09.568Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:09.569Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:09.569Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=text-input in page."}
-{"level":30,"time":"2026-03-24T11:29:09.572Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element id=text-input containing Test automation with Robot Framework"}
-{"level":30,"time":"2026-03-24T11:29:09.572Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:09.574Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-03-24T11:29:09.580Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=a3a4f4b2-9f79-489b-bc46-3b7bf571ef47 from context=ca039b57-d01f-49e8-a859-d0ceabe86c73 page stack"}
-{"level":30,"time":"2026-03-24T11:29:09.661Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:43.079Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:43.079Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
@@ -286,38 +259,35 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-03-24T11:29:09.663Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:09.663Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:09.664Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:09.664Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:09.668Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:09.906Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-24T11:29:09.906Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-24T11:29:09.906Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:09.910Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:09.910Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4a49d99eabc47e47ce3390ab703824eb\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=c29cfd38-b59d-49a0-b5f7-24f51bf5f83d\"}"}
-{"level":30,"time":"2026-03-24T11:29:09.914Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=9385b0ca-c200-414a-a105-290bc7f6ff8c to 10000"}
-{"level":30,"time":"2026-03-24T11:29:09.915Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=9385b0ca-c200-414a-a105-290bc7f6ff8c"}
-{"level":30,"time":"2026-03-24T11:29:10.393Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-24T11:29:10.393Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-24T11:29:10.452Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:10.455Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:10.455Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=textarea in page."}
-{"level":30,"time":"2026-03-24T11:29:10.474Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:10.476Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:10.476Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=textarea in page."}
-{"level":30,"time":"2026-03-24T11:29:10.493Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element id=textarea containing This is a test message in textarea."}
-{"level":30,"time":"2026-03-24T11:29:10.493Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:10.497Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:10.497Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=textarea in page."}
-{"level":30,"time":"2026-03-24T11:29:10.501Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:10.503Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:10.503Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=textarea in page."}
-{"level":30,"time":"2026-03-24T11:29:10.507Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element id=textarea containing Robot Framework Browser Library testing"}
-{"level":30,"time":"2026-03-24T11:29:10.507Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:10.509Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-03-24T11:29:10.520Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=6d1ea989-34a3-4945-82db-f916e6bbcede from context=9385b0ca-c200-414a-a105-290bc7f6ff8c page stack"}
-{"level":30,"time":"2026-03-24T11:29:10.601Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:43.085Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:43.085Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:43.107Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:43.107Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:43.109Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:43.109Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:43.125Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-07T12:39:43.358Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-04-07T12:39:43.358Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-07T12:39:43.359Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-07T12:39:43.362Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-07T12:39:43.362Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@04585c1a0e4792b563000edd44c8e023\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=4aefa4c2-966a-4aff-bf3d-a55cd6894234\"}"}
+{"level":30,"time":"2026-04-07T12:39:43.365Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=3bb1780c-43d6-4c55-a9d9-0ccfc1f43fc0 to 10000"}
+{"level":30,"time":"2026-04-07T12:39:43.366Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=3bb1780c-43d6-4c55-a9d9-0ccfc1f43fc0"}
+{"level":30,"time":"2026-04-07T12:39:43.560Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-07T12:39:43.560Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-04-07T12:39:43.739Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-07T12:39:43.743Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:43.743Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=username in page."}
+{"level":30,"time":"2026-04-07T12:39:43.762Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:43.764Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:43.764Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-04-07T12:39:43.767Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-04-07T12:39:43.769Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-07T12:39:43.769Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@id='login-section']//button[@type='submit'] in page."}
+{"level":30,"time":"2026-04-07T12:39:43.795Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-04-07T12:39:46.805Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:46.819Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=09621b78-a6df-42f3-a750-8b70c39fe10f from context=3bb1780c-43d6-4c55-a9d9-0ccfc1f43fc0 page stack"}
+{"level":30,"time":"2026-04-07T12:39:46.904Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
@@ -331,60 +301,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-03-24T11:29:10.606Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:10.606Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:10.609Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:10.609Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:10.611Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:10.836Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-24T11:29:10.836Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-24T11:29:10.837Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:10.845Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:10.845Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@c3bbcf1de4a1ce704f0a4e4613ef34d5\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=e0c44b6c-747e-4c5a-aeaa-470812b7464d\"}"}
-{"level":30,"time":"2026-03-24T11:29:10.852Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=4c82ea2e-1c93-4232-89a7-08688d5930ce to 10000"}
-{"level":30,"time":"2026-03-24T11:29:10.852Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=4c82ea2e-1c93-4232-89a7-08688d5930ce"}
-{"level":30,"time":"2026-03-24T11:29:11.055Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-24T11:29:11.055Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-24T11:29:11.090Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:11.093Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:11.093Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=text-input in page."}
-{"level":30,"time":"2026-03-24T11:29:11.113Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:11.115Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:11.115Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=textarea in page."}
-{"level":30,"time":"2026-03-24T11:29:11.123Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:11.126Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:11.126Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=checkbox1 in page."}
-{"level":30,"time":"2026-03-24T11:29:11.177Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:11.179Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:11.179Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=radio1 in page."}
-{"level":30,"time":"2026-03-24T11:29:11.243Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method checkCheckbox"}
-{"level":30,"time":"2026-03-24T11:29:11.245Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method selectOption"}
-{"level":30,"time":"2026-03-24T11:29:11.245Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=dropdown-select in page."}
-{"level":30,"time":"2026-03-24T11:29:11.261Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Option entries: 4"}
-{"level":30,"time":"2026-03-24T11:29:11.261Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Selected entries: 1"}
-{"level":30,"time":"2026-03-24T11:29:11.261Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method selectOption"}
-{"level":30,"time":"2026-03-24T11:29:11.263Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-24T11:29:11.263Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with button[type=\"reset\"] in page."}
-{"level":30,"time":"2026-03-24T11:29:11.311Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-24T11:29:11.312Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:11.312Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=text-input in page."}
-{"level":30,"time":"2026-03-24T11:29:11.317Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element id=text-input containing "}
-{"level":30,"time":"2026-03-24T11:29:11.317Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:11.319Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:11.319Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=textarea in page."}
-{"level":30,"time":"2026-03-24T11:29:11.322Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element id=textarea containing "}
-{"level":30,"time":"2026-03-24T11:29:11.322Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:11.324Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:11.324Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=checkbox1 in page."}
-{"level":30,"time":"2026-03-24T11:29:11.327Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved dom property for element id=checkbox1 containing false"}
-{"level":30,"time":"2026-03-24T11:29:11.327Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:11.329Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:11.329Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=radio1 in page."}
-{"level":30,"time":"2026-03-24T11:29:11.333Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved dom property for element id=radio1 containing false"}
-{"level":30,"time":"2026-03-24T11:29:11.333Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBoolProperty"}
-{"level":30,"time":"2026-03-24T11:29:11.336Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-03-24T11:29:11.344Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=148e4652-7dc4-4d5d-ae00-4e5daf517950 from context=4c82ea2e-1c93-4232-89a7-08688d5930ce page stack"}
-{"level":30,"time":"2026-03-24T11:29:11.419Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-04-07T12:39:46.907Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:46.907Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
@@ -398,66 +316,7 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2026-03-24T11:29:11.421Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:11.422Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:11.424Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:11.426Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:11.436Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:11.657Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-24T11:29:11.657Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-24T11:29:11.657Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-24T11:29:11.660Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:11.660Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@8c099e32061adcf70fff01fee3786ac2\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=9d98e63b-101e-454d-aa0f-dc6d9cf977d6\"}"}
-{"level":30,"time":"2026-03-24T11:29:11.667Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Setting default timeout for context context=e79bf877-1a4a-4d51-996f-55b5fd0b4da0 to 10000"}
-{"level":30,"time":"2026-03-24T11:29:11.667Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active context: context=e79bf877-1a4a-4d51-996f-55b5fd0b4da0"}
-{"level":30,"time":"2026-03-24T11:29:12.151Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-24T11:29:12.151Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-24T11:29:12.198Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-24T11:29:12.202Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:12.202Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=text-input in page."}
-{"level":30,"time":"2026-03-24T11:29:12.224Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-24T11:29:12.227Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-24T11:29:12.227Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with button[type=\"submit\"] in page."}
-{"level":30,"time":"2026-03-24T11:29:12.280Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-24T11:29:12.282Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-24T11:29:12.282Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with id=result in page."}
-{"level":30,"time":"2026-03-24T11:29:12.284Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-24T11:29:12.285Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:12.285Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Strict mode is enabled, find Locator with xpath=//div[@id='result']/h3 in page."}
-{"level":30,"time":"2026-03-24T11:29:12.300Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Retrieved text for element xpath=//div[@id='result']/h3 containing Lomake lähetetty!"}
-{"level":30,"time":"2026-03-24T11:29:12.300Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-24T11:29:12.302Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-03-24T11:29:12.313Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Removed page=6806f8ae-b80b-445d-a350-33fdc4b05b71 from context=e79bf877-1a4a-4d51-996f-55b5fd0b4da0 page stack"}
-{"level":30,"time":"2026-03-24T11:29:12.394Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeBrowser"}
-================= Original suppressed error =================
-Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
-    at PlaywrightServer.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13677:59)
-    at PlaywrightServer.setTimeout (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13933:56)
-    at Object.onReceiveHalfClose (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
-    at BaseServerInterceptingCall.handleEndEvent (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
-    at ServerHttp2Stream.<anonymous> (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
-    at ServerHttp2Stream.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
-=============================================================
-{"level":30,"time":"2026-03-24T11:29:12.406Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:12.406Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-================= Original suppressed error =================
-Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:12757:15)
-    at PlaywrightServer.getActiveBrowser (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13677:59)
-    at PlaywrightServer.setTimeout (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js:13933:56)
-    at Object.onReceiveHalfClose (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
-    at BaseServerInterceptingCall.handleEndEvent (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
-    at ServerHttp2Stream.<anonymous> (/Users/mohamad/Downloads/Mohamad_yksiloprojekti/.venv/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
-    at ServerHttp2Stream.emit (node:events:536:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
-=============================================================
-{"level":30,"time":"2026-03-24T11:29:12.419Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:12.419Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-24T11:29:12.449Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2026-03-24T11:29:12.449Z","pid":88989,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2026-04-07T12:39:46.910Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:46.910Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-07T12:39:46.937Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-04-07T12:39:46.937Z","pid":98664,"hostname":"Mohamads-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}
